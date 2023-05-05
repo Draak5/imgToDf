@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='utf-8'>
+
+    <title>Image 2 DF</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/pako.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <h>Image 2 DF</h>
+    </nav>
+
+    <input type="file" id="fileInput"  accept=".png">
+    <button onclick="parseImage()">Upload Image</button>
+    <br>
+    <div id="outputBox" onclick="copyToClipboard()">Result</div>
+
+</body>
+</html>

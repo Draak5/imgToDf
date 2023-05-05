@@ -1,0 +1,109 @@
+
+
+:root {
+    --back-color-d: rgb(34, 34, 34);
+    --back-color-b: rgb(128, 128, 128);
+    --back-color-c: rgb(51, 51, 75);
+    --back-color-a: #151515;
+
+    --color-a: rgb(255, 255, 255);
+    --color-b: rgb(200, 200, 200);
+    --color-c: rgb(0, 155, 255);
+    --color-d: rgb(155, 0, 255);
+}
+
+body {
+    background-color: var(--back-color-b);
+    color: var(--color-a);
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0pt;
+}
+
+
+nav {
+    background-color: var(--back-color-a);
+    font-size: 20pt;
+    padding: 10pt;
+}
+
+.input-div {
+    background-color: var(--back-color-c);
+    margin: 5pt;
+    padding-left: 5pt;
+
+
+    border: solid 2px;
+    border-color: var(--color-c);
+    border-radius: 10px;
+    
+    width: 350pt;
+    height: 450pt;
+
+    float: left;
+}
+
+
+.subj {
+    margin-left: 10px;
+}
+
+.key, .inc {
+    font-size: 10pt;
+    text-align: right;
+    display: inline-block;
+    width: 100px;
+
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+input-div.input {
+    width: 80px;
+}
+
+#outputBox {
+    width: 455px;
+    position: fixed;
+
+    border: solid 1px var(--back-color-c);
+    background-color: var(--back-color-a);
+
+    font-size: 10pt;
+    display: inline-block;
+
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    vertical-align: top;
+}
+#outputBox-ta {
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 135px;
+    resize: none;
+
+    color: var(--color-d);
+
+    background-color: var(--back-color-d);
+
+    font-size: 10pt;
+    display: inline-block;
+
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.generateButton {
+    color: var(--color-a);
+    background-color: var(--back-color-d);
+    border: solid var(--color-c) 1px;
+    margin: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1px;
+    border-radius: 4pt;
+}
